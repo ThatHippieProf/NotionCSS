@@ -1,13 +1,7 @@
-<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dr. Andy's Portfolio</title>
 
-<link rel="stylesheet" type="text/css" href="https://ThatHippieProf.github.io/style.css/portfolio-style.css">
-
-</head>
-
-<link rel="stylesheet" type="text/css" href="https://ThatHippieProf.github.io/style.css/portfolio-style.css">
+<link rel="stylesheet" type="text/css" href="https://thathippieprof.github.io/NotionCSS/portfolio-style.css">
 
 <script async defer data-domain="colombodougovito.com" src="https://plausible.io/js/plausible.js"></script>
 
