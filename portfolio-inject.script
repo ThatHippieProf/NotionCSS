@@ -1,0 +1,39 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://sites.super.so/slite/style.css">
+
+<script async defer data-domain="colombodougovito.com" src="https://plausible.io/js/plausible.js"></script>
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ThatHippieProf" data-description="Support me on Buy me a coffee!" data-message=none data-color="#5F7FFF" data-position="Right" data-x_margin="15" data-y_margin="15"></script>
+
+<script>
+  window.onload = function() {
+    const copyright = document.createElement('p')
+    copyright.innerHTML = '© That Hippie Prof 2021. All Rights Reserved.'
+    copyright.style.color = '#000'
+    copyright.style.margin = '25px 0 0 0'
+
+    const img = document.createElement("img")
+    img.setAttribute('src', 'https://thathippieprof.square.site/uploads/b/a5f4f76b89c5ddb2b9626cb74c3fead9456c7738787d415ab059136f74d5c6a4/THP_circles_1616042086.png?width=400')
+    img.style.width = '85px'
+    img.setAttribute('class', 'logo')
+
+    const footerLinks = document.createElement('div')
+    footerLinks.setAttribute('class', 'footer-links')
+
+    const link1 = document.createElement("a")
+    link1.innerHTML = 'Privacy Policy'
+    link1.setAttribute('href', 'https://colombodougovito.com/privacy')
+    link1.setAttribute('class', 'footlink')
+
+    const footer = document.createElement('div')
+    footer.setAttribute('class', 'super-footer')
+
+    footerLinks.appendChild(link1)
+    footer.appendChild(img)
+    footer.appendChild(footerLinks)
+    footer.appendChild(copyright)
+
+    document.body.appendChild(footer)
+  }
+</script>
