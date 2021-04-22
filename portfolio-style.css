@@ -64,24 +64,27 @@ body {
   background-color: transparent !important;
   position: fixed !important;
   font-size: 22px !important;
-  z-index: 9999 !important;
+  z-index: 9998 !important;
   display: flex !important;
   border: none !important;
   margin: 0 !important;
   right: 50px !important;
   top: 0 !important;
 }
-#block-31e157c5e7044c81b9389222872c94d8 .notion-embed__container>iframe {
+.button_container__1Npho {
   background-color: transparent !important;
 }
-#block-31e157c5e7044c81b9389222872c94d8 .button_btnWidget__39yZD {
+.button_btnWidget__39yZD {
   opacity: .75 !important;
   background-color: transparent !important;
   border: none !important;
 }
-#block-31e157c5e7044c81b9389222872c94d8 .button_btnWidget__39yZD:hover{
+.button_btnWidget__39yZD:hover{
   opacity: 1 !important;
   transform: 1.02 !important'
+}
+.WidgetDarkModeToggle_darkModeSwitch__CcPpR {
+  display: none !important;
 }
 /* Reducing the bottom white space */
 .super-content {
