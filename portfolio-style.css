@@ -158,6 +158,10 @@ body {
 /* Remove background on Vitae link */
 #block-vitae {
   background: none !important;
+  border-bottom: 0px solid #1a516b !important;
+}
+#block-vitaea:hover {
+  background: none !important; 
 }
 .notion-page__title {
   border-bottom: 0px !important;
