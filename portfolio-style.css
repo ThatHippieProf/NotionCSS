@@ -22,6 +22,11 @@
 html {
   font-size: 16px !important;
 }
+body {
+  -webkit-animation: fadeIn 1s !important;
+  -moz-animation: fadeIn 1s !important;
+  animation: fadeIn 1s !important;
+}
 /* Hide certain elements */
 .notion-collection__header,
 .notion-property__title__icon-wrapper,
@@ -38,31 +43,39 @@ html {
   z-index: 9999 !important;
 }
 .notion-search__input {
+  background: rgb(8, 110, 161, .2) !important;
   color-text: #000000 !important;
 }
 /* Opacity for NavBar */
 .notion-navbar {
-	background: rgb(250, 250, 250, .20) !important;
+  background: rgb(250, 250, 250, .20) !important;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px) !important;
 }
-/* Add social link bar */
- #block-31e157c5e7044c81b9389222872c94d8 {
-  max-width: 200px;
-  max-height: 30px;
+.notion-navbar>a { padding: 0 !important; }
+.notion-navbar>a:hover { background: none !important; }
+.notion-breadcrumb__divider { margin: -4px 4px 0 !important; }
+.notion-navbar__title { overflow: visible !important; }
+#block-31e157c5e7044c81b9389222872c94d8 {
+  padding: 0 var(--padding-right) 0 0 !important;
+  height: var(--navbar-height) !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
   background-color: transparent !important;
   position: fixed !important;
-  top: 0px !important;
-  right: 50px !important;
+  font-size: 22px !important;
   z-index: 9999 !important;
-  justify-content: flex-end !important;
   display: flex !important;
+  border: none !important;
+  margin: 0 !important;
+  right: 50px !important;
+  top: 0 !important;
 }
 #block-31e157c5e7044c81b9389222872c94d8 .notion-embed__container>iframe {
   background-color: transparent !important;
 }
 #block-31e157c5e7044c81b9389222872c94d8 .button_btnWidget__39yZD {
-  opacity: .8 !important;
+  opacity: .75 !important;
   background-color: transparent !important;
   border: none !important;
 }
@@ -242,15 +255,18 @@ border-bottom: 0px solid !important;
 }
 /* Change list items */
 .notion-collection-list__item {
-	overflow-y: visible !important;
-	overflow-wrap: normal !important;
-	display: flex !important;
-	flex-direction: column !important;
+  overflow-y: visible !important;
+  overflow-wrap: normal !important;
+  display: flex !important;
+  flex-direction: column !important;
   align-items: flex-start !important;
 }
 .notion-collection-list__item .notion-property__title .notion-semantic-string {
   border-bottom: 0px solid !important;
   white-space: unset !important;
+}
+.notion-property__title .notion-semantic-string>span {
+  border: none !important;
 }
 .notion-collection-list__item .notion-property__title .notion-semantic-string:hover {
   background-color: transparent !important;
