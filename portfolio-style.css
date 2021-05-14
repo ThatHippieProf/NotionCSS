@@ -148,11 +148,11 @@ body {
   transform: scale(1.02) !important;
 }
 /* Remove background on Vitae link */
-#block-vitae>a {
+#block-vitae {
   background: transparent !important;
   border-bottom: 0px solid #1a516b !important;
 }
-#block-vitae>a:hover {
+#block-vitae:hover {
   background: transparent !important; 
 }
 .notion-page__title {
