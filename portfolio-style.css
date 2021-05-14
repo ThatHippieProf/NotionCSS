@@ -149,14 +149,15 @@ body {
 }
 /* Remove background on Vitae link */
 #block-vitae>a {
-  background: none !important;
+  background: transparent !important;
   border-bottom: 0px solid #1a516b !important;
 }
 #block-vitae>a:hover {
-  background: none !important; 
+  background: transparent !important; 
 }
 .notion-page__title {
   border-bottom: 0px !important;
+  text-decoration: none !important;
 }
 /* Change default font weights for headings */
 .notion-header__title,
@@ -368,8 +369,8 @@ h3 {
 #block-9f392389bfd643e69dd62a4a1e33f7f9 {
    border-radius: var(--rounded) !important;
    margin: auto !important;
-   width: 100% !important;
-   height: 90% !important;
+   max-width: 100% !important;
+   height: auto !important;
    overflow: hidden !important;
 }
 #block-9f392389bfd643e69dd62a4a1e33f7f9 img {
