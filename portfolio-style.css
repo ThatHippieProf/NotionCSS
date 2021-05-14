@@ -235,11 +235,11 @@ h3 {
   text-decoration: none;
 }
 /* Remove link in list view */
-.notion-link.notion-collection-list__item-anchor {
+.notion-link.notion-collection-list__item>a {
   pointer-events: none;
   cursor: default;
 }
-.notion-link.notion-collection-list__item-anchor:hover {
+.notion-link.notion-collection-list__item>a:hover {
   background-color: transparent !important;
 }
 /* Change list items */
