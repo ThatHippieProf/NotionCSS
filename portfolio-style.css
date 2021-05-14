@@ -46,30 +46,21 @@ body {
   background: rgb(8, 110, 161, .2) !important;
   color-text: #000000 !important;
 }
-/* Opacity for NavBar */
+/* NavBar */
 .notion-navbar {
   background: rgb(250, 250, 250, .20) !important;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px) !important;
 }
-.notion-navbar>a { padding: 0 !important; }
-.notion-navbar>a:hover { background: none !important; }
-.notion-breadcrumb__divider { margin: -4px 4px 0 !important; }
-.notion-navbar__title { overflow: visible !important; }
-#block-31e157c5e7044c81b9389222872c94d8 {
-  padding: 0 var(--padding-right) 0 0 !important;
-  height: var(--navbar-height) !important;
-  justify-content: flex-end !important;
-  align-items: center !important;
-  background-color: transparent !important;
-  position: fixed !important;
-  font-size: 22px !important;
-  z-index: 9998 !important;
-  display: flex !important;
-  border: none !important;
-  margin: 0 !important;
-  right: 50px !important;
-  top: 0 !important;
+.notion-navbar>a {
+  padding: 0 !important; 
+}
+.notion-navbar>a:hover { 
+  background: none !important;
+  overflow: visible !important;
+}
+.notion-breadcrumb__divider { 
+  margin: -4px 4px 0 !important; 
 }
 .button_container__1Npho {
   background-color: transparent !important;
@@ -95,6 +86,7 @@ body {
   position: center !important;
   background-repeat: no-repeat;
   margin-top: 0px !important;
+  z-index: 1;
 }
 /* Adding footer style */
 .super-footer {
@@ -156,11 +148,11 @@ body {
   transform: scale(1.02) !important;
 }
 /* Remove background on Vitae link */
-#block-vitae {
+#block-vitae>a {
   background: none !important;
   border-bottom: 0px solid #1a516b !important;
 }
-#block-vitaea:hover {
+#block-vitae>a:hover {
   background: none !important; 
 }
 .notion-page__title {
@@ -196,23 +188,13 @@ h3 {
   max-width: 100vw !important;
   width: 100vw !important;
 }
-/* Standardize max-width for Affiliate Images */
-#block-2e24941a558a4be9ad25ffd265f09d17,
-#block-801deb120f024c65890a490e8ec50fc9,
-#block-127e684c41bb4d0c91b93bf495c1541e,
-#block-7ba5c592d5bb41ad970f14ad22e64981,
-#block-4f0779f8d9b6464d88d04155dcf7c068 {
- max-width: 120px !important;
- width: 100%;
- border-radius: var(--rounded) !important;
-}
 /* Change General Link style */
 .notion-semantic-string {
  decoration: none !important;
 }
 .notion-semantic-string .link {
  font-size: default !important;
-border-bottom: 0px solid !important;
+ border-bottom: 0px solid !important;
  color: #383a3b !important;
 }
 .notion-semantic-string .link:hover {
@@ -249,8 +231,8 @@ border-bottom: 0px solid !important;
 }
 .notion-callout__content {
   margin: -1px 0 0 2px !important;
-	color-text: #383a3b !important;
-	text-decoration: none;
+  color-text: #383a3b !important;
+  text-decoration: none;
 }
 /* Remove link in list view */
 .notion-link.notion-collection-list__item-anchor {
@@ -387,7 +369,7 @@ border-bottom: 0px solid !important;
    border-radius: var(--rounded) !important;
    margin: auto !important;
    width: 100% !important;
-   height: 75% !important;
+   height: 90% !important;
    overflow: hidden !important;
 }
 #block-9f392389bfd643e69dd62a4a1e33f7f9 img {
