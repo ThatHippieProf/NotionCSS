@@ -373,8 +373,9 @@ h3 {
 #block-9f392389bfd643e69dd62a4a1e33f7f9 {
    border-radius: var(--rounded) !important;
    margin: auto !important;
-   max-width: 175% !important;
+   max-width: 125% !important;
    height: auto !important;
+   justify: center !important;
    overflow: hidden !important;
 }
 #block-9f392389bfd643e69dd62a4a1e33f7f9 img {
