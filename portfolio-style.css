@@ -273,7 +273,7 @@ h3 {
 /* Change default gallery styles */
 .notion-collection-gallery {
   grid-template-columns: 1fr 1fr !important;
-  grid-gap: 40px !important;
+  grid-gap: 15px !important;
   border: none !important;
   padding: 0 !important;
 }
@@ -305,7 +305,6 @@ h3 {
 .notion-collection-card__cover img {
    max-height: 240px !important;
    height: 100% !important;
-   min-width: 120px !important;
    overflow: hidden !important;
 }
 /* Change default gallery card cover styles */
