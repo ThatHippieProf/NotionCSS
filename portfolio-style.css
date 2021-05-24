@@ -369,6 +369,7 @@ h3 {
    border-radius: var(--rounded) !important;
    margin: auto !important;
    max-width: 105% !important;
+   min-width: 50% !important;
    height: auto !important;
    justify: center !important;
    overflow: hidden !important;
