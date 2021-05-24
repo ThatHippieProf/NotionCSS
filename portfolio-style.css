@@ -117,16 +117,16 @@ body {
   margin: 25px 10px 0px 10px;
 }
 /* Customize Tally Form */
- .styled__Container-sc-1lbuz9z-0 jdAAWN tally-app {
+ .styled__Container-sc-1lbuz9z-0 .jdAAWN .tally-app {
   background-color: transparent !important;
   font-family: default !important;
 }
-.styled__ButtonsContainer-sc-29u7yj-3 kEatLN tally-submit-button {
+.styled__ButtonsContainer-sc-29u7yj-3 .kEatLN .tally-submit-button {
   background-color: none !important;
   color: #1a516b !important;
   border: 1px solid #1a516b !important;
 }
-.styled__ButtonsContainer-sc-29u7yj-3 kEatLN tally-submit-button:hover {
+.styled__ButtonsContainer-sc-29u7yj-3 .kEatLN .tally-submit-button:hover {
   background-color: #1a516b !important;
   color: #fff !important;
   border: 1px solid #1a516b !important;
@@ -279,7 +279,7 @@ h3 {
 }
 /* Change default gallery styles */
 .notion-collection-gallery {
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 1fr 1fr !important;
   grid-gap: 20px !important;
   border: none !important;
   padding: 0 !important;
@@ -295,9 +295,10 @@ h3 {
   flex-direction: row !important;
   position: relative !important;
   box-shadow: none !important;
-  height: 240px !important;
+  height: 360px !important;
   display: flex !important;
   border: none !important;
+  background: none !important;
 }
 /* Make gallery cards opaque on hover */
 .notion-collection-card:hover {
@@ -309,8 +310,9 @@ h3 {
 .notion-collection-card__cover,
 .notion-collection-card__cover div,
 .notion-collection-card__cover img {
-   max-height: 100% !important;
+   max-height: 240px !important;
    height: 100% !important;
+   overflow: hidden !important;
 }
 /* Change default gallery card cover styles */
 .notion-collection-card__cover {
@@ -373,7 +375,7 @@ h3 {
 #block-9f392389bfd643e69dd62a4a1e33f7f9 {
    border-radius: var(--rounded) !important;
    margin: auto !important;
-   max-width: 125% !important;
+   max-width: 105% !important;
    height: auto !important;
    justify: center !important;
    overflow: hidden !important;
