@@ -125,22 +125,22 @@ body {
   text-decoration: none !important;
 }
 /* Modify Luma Event Embed */
-.jsx-1670897970 event-list-container {
+.event-list-container {
   bg-color: transparent !important;
   font-family: lato !important;
   border-radius: var(--rounded) !important;
 }
-.jsx-1670897970 event-list-container:hover .jsx-4195495436 profile-event-wrapper {
+.event-list-container:hover .profile-event-wrapper {
   opacity: .75 !important;
 }
-.jsx-4195495436 profile-event-wrapper:hover {
+.profile-event-wrapper:hover {
   opacity: 1 !important;
   transform: scale(1.02) !important;
 }
-.jsx-4195495436 mt-1 flex-center event-meta {
+.event-meta {
   color: 1a516b !important;
 }
-.jsx-4195495436 event-name {
+.event-name {
   color: 002a40 !important;
 }
 /* Change default font weights for headings */
