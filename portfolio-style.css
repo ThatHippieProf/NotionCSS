@@ -10,15 +10,15 @@ html {
   font-size: 16px !important;
 }
 body {
-  -webkit-animation: fadeUp 1s !important;
-  -moz-animation: fadeUp 1s !important;
-  animation: fadeUp 1s !important;
+  -webkit-animation: scaleUp 2s !important;
+  -moz-animation: scaleUp 2s !important;
+  animation: scaleUp 2s !important;
 }
 /* Hide certain elements */
 .notion-collection__header,
 .notion-property__title__icon-wrapper,
 .notion-header__cover.no-cover,
-.notion-header_cover,
+.notion-header_cover.has-cover,
 .notion-header__title-wrapper,
 .notion-caption {
   display: none !important;
