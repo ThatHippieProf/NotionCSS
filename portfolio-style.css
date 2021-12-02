@@ -49,21 +49,6 @@ body {
 .notion-breadcrumb__divider { 
   margin: -4px 4px 0 !important; 
 }
-.button_container__1Npho {
-  background-color: transparent !important;
-}
-.button_btnWidget__39yZD {
-  opacity: .75 !important;
-  background-color: transparent !important;
-  border: none !important;
-}
-.button_btnWidget__39yZD:hover{
-  opacity: 1 !important;
-  transform: 1.02 !important'
-}
-.WidgetDarkModeToggle_darkModeSwitch__CcPpR {
-  display: none !important;
-}
 /* Reducing the bottom white space */
 .super-content {
   padding-bottom: 5px !important;
@@ -109,11 +94,14 @@ body {
   text-decoration: none !important;
 }
 /* Modify Luma Event Embed */
-.event-list-container.jsx-1670897970 {
+#block-63d70a17453148fdb6056c1742fc4dec {
   background: transparent !important;
   font-family: lato !important;
   border-radius: var(--rounded) !important;
 }
+.jsx-1125185800 profile-event-wrapper:hover {
+  transform(1.02) !important;
+}  
 /* Change default font weights for headings */
 .notion-header__title,
 .notion-heading {
@@ -244,7 +232,7 @@ h3 {
     grid-template-columns: 1fr !important;
     margin: 20px 0 !important;
     grid-gap: 15px !important;
-    }
+  }
   .notion-collection-card:first-child {
     grid-column-start: auto !important;
   }
@@ -256,16 +244,28 @@ h3 {
 .notion-collection-gallery:hover .notion-collection-card {
   opacity: 0.75;
 }
+.notion-collection-card.gallery:before {
+  background: linear-gradient(0deg, rgba(32,33,37,0.5) 0%, rgba(32,33,37,0) 50%) !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  content: "" !important;
+  z-index: 1 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  top: 0 !important;
+}
 /* Change default gallery card styles */
 .notion-collection-card.gallery {
   transition: var(--transition) !important;
   align-items: center !important;
-  flex-direction: row !important;
+  overflow: hidden !important;
   position: relative !important;
   box-shadow: none !important;
   height: 360px !important;
   display: flex !important;
   border: none !important;
+  border-radius: 20px !important;
   background: none !important;
 }
 /* Make gallery cards opaque on hover */
@@ -278,34 +278,22 @@ h3 {
 .notion-collection-card__cover,
 .notion-collection-card__cover>div,
 .notion-collection-card__cover img {
-   max-height: none !important;
-   max-width: none !important;
-   height: 100% !important;
-   overflow: hidden !important;
-   border: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  border: none !important;
 }
-/* Change default gallery card cover styles */
-.notion-collection-card__cover {
-   border-radius: var(--rounded) !important;
-   position: relative !important;
-   border: none !important;
-   flex: 2 !important;
-}
-/* Change default gallery card content styles */
-.notion-collection-card__content {
-   padding-left: 10px !important;
-   position: relative !important;
-   flex: 1 !important;
-}
-/* Prevent gallery card content from cutting off */
-.notion-collection-card__content span {
-   white-space: normal !important;
-}
-/* Change default gallery card text property styles */
-.notion-property__text {
-   margin: 2px 0 6px !important;
-   font-size: 16px !important;
-   font-weight: 500 !important;
+/* Change default gallery card content */
+.notion-collection-card.gallery .notion-property__title {
+    position: absolute !important;
+    padding: 24px 30px !important;
+    max-width: 400px !important;
+    font-size: 20px !important;
+    color: #f5f5f5 !important;
+    z-index: =2 !important;
+    bottom: 0 !important;
+    left: 0 !important;
 }
 /* Tighten default Notion quote border */
 .notion-quote {
