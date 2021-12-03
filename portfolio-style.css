@@ -221,7 +221,7 @@ h3 {
 }
 /* Change default gallery styles */
 .notion-collection-gallery {
-  grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   grid-gap: 15px !important;
   margin-right: 10px !important;
   border: none !important;
@@ -283,11 +283,10 @@ h3 {
 .notion-collection-card__cover img {
   max-height: none !important;
   max-width: none !important;
-  height: 100vh !important;
+  height: 100% !important;
   width: 100vw !important;
   overflow: hidden !important;
   border: none !important;
-  color: rgba(32,33,37,0.5) !important;
 }
 /* Change default gallery card content */
 
