@@ -284,7 +284,6 @@ h3 {
   max-height: none !important;
   max-width: none !important;
   height: 100% !important;
-  width: 100vw !important;
   overflow: hidden !important;
   border: none !important;
 }
