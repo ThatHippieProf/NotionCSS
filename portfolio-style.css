@@ -283,26 +283,14 @@ h3 {
 .notion-collection-card__cover img {
   max-height: none !important;
   max-width: none !important;
-  height: 100% !important;
-  width: auto !important;
+  height: 100vh !important;
+  width: 100vw !important;
   overflow: hidden !important;
   border: none !important;
   color: rgba(32,33,37,0.5) !important;
 }
 /* Change default gallery card content */
-.notion-collection-card.gallery:hover .notion-property__title {
-  position: absolute !important;
-  padding: 10px !important;
-  font-size: 20px !important;
-  color: #fafafa !important;
-  z-index: 2 !important;
-  bottom: auto !important;
-  left: auto !important;
-  overflow-y: visible !important;
-  overflow-wrap: normal !important;
-  display: flex !important;
-  flex-direction: column !important;
-}
+
 /* Tighten default Notion quote border */
 .notion-quote {
    border-left: 1px solid !important;
