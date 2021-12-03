@@ -318,7 +318,6 @@ h3 {
    align-self: flex-start !important;
    position: sticky !important;
    top: 120px !important;
-   min-width: 400px !important;
 }
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
@@ -328,7 +327,7 @@ h3 {
    border-radius: var(--rounded) !important;
    margin: auto !important;
    max-width: 100% !important;
-   min-width: 50% !important;
+   min-width: 80% !important;
    height: auto !important;
    justify: center !important;
    overflow: hidden !important;
