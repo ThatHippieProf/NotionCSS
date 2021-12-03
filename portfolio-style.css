@@ -10,9 +10,9 @@ html {
   font-size: 16px !important;
 }
 body {
-  -webkit-animation: scaleUp 2s !important;
-  -moz-animation: scaleUp 2s !important;
-  animation: scaleUp 2s !important;
+  -webkit-animation: fadeIn 2s !important;
+  -moz-animation: fadeIn 2s !important;
+  animation: fadeIn 2s !important;
 }
 /* Hide certain elements */
 .notion-collection__header,
@@ -221,14 +221,14 @@ h3 {
 }
 /* Change default gallery styles */
 .notion-collection-gallery {
-  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   grid-gap: 15px !important;
   margin-right: 50px !important;
   border: none !important;
   padding: 0 !important;
 }
 .notion-collection-card:first-child{
-  grid-column-start: span 2 !important;
+  grid-column-start: span 1 !important;
 }
 @media (max-width: 1000px) {
   .notion-collection-gallery {
@@ -284,6 +284,7 @@ h3 {
   max-height: none !important;
   max-width: none !important;
   height: auto !important;
+  width: 100% !important;
   overflow: hidden !important;
   border: none !important;
 }
@@ -291,7 +292,6 @@ h3 {
 .notion-collection-card.gallery .notion-property__title {
     position: absolute !important;
     padding: 24px 30px !important;
-    max-width: 400px !important;
     font-size: 20px !important;
     color: #f5f5f5 !important;
     z-index: 2 !important;
