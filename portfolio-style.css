@@ -84,18 +84,6 @@ body {
   flex-direction: row;
   margin: 25px 10px 0px 10px;
 }
-/* Remove background on Vitae link */
-#block-vitae {
-  background: transparent !important;
-  border-bottom: 0px solid #1a516b !important;
-}
-#block-vitae:hover {
-  background: none !important; 
-}
-.notion-page__title {
-  border-bottom: 0px !important;
-  text-decoration: none !important;
-}
 /* Modify Luma Event Embed */
 #block-63d70a17453148fdb6056c1742fc4dec {
   background: transparent !important;
@@ -221,16 +209,16 @@ h3 {
 }
 /* Change default gallery styles */
 .notion-collection-gallery {
-  grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   grid-gap: 15px !important;
   margin-right: 10px !important;
   border: none !important;
   padding: 0 !important;
 }
 .notion-collection-card:first-child{
-  grid-column-start: span 3 !important;
+  grid-column-start: span 4 !important;
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .notion-collection-gallery {
     grid-template-columns: 1fr !important;
     margin-right: 5px !important;
@@ -248,7 +236,7 @@ h3 {
   opacity: 0.75;
 }
 .notion-collection-card.gallery:before {
-  background: linear-gradient(0deg, rgba(32,33,37,0.5) 0%, rgba(32,33,37,0) 50%) !important;
+  background: transparent !important;
   pointer-events: none !important;
   position: absolute !important;
   content: "" !important;
@@ -339,7 +327,7 @@ h3 {
    height: 100% !important;
 }
 /* Mobile styles */
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .notion-header__title {
     font-size: 40px !important;
   }
