@@ -10,19 +10,6 @@ html {
   font-size: 16px !important;
 }
 
-.night { background: #333; color: white;
-}
-
-@media (prefers-color-scheme: dark) {
-  .day.dark-scheme   { background:  #333; color: white; }
-  .night.dark-scheme { background: black; color:  #ddd; }
-}
-
-@media (prefers-color-scheme: light) {
-  .day.light-scheme   { background: white; color:  #555; }
-  .night.light-scheme { background:  #eee; color: black; }
-}
-
 body {
   -webkit-animation: fadeIn 2s !important;
   -moz-animation: fadeIn 2s !important;
@@ -191,30 +178,6 @@ h3 {
 .notion-collection-list__item:hover {
   background-color: transparent !important;
 }
-/* Change list items */
-.notion-collection-list__item {
-  overflow-y: visible !important;
-  overflow-wrap: normal !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-}
-.notion-collection-list__item .notion-property__title .notion-semantic-string {
-  border-bottom: 0px solid !important;
-  white-space: unset !important;
-}
-.notion-property__title .notion-semantic-string>span {
-  border: none !important;
-}
-.notion-collection-list__item .notion-property__title .notion-semantic-string:hover {
-  background-color: transparent !important;
-}
-.notion-collection-list__item-property {
-  font-style: italic !important;
-}
-.notion-collection-list__item-content {
-  justify-content: flex-end !important;
-}
 /* change list property */
 .notion-pill {
   background-color: transparent !important;
@@ -223,18 +186,18 @@ h3 {
 }
 /* Change default gallery styles */
 .notion-collection-gallery {
-  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   grid-gap: 15px !important;
   margin-right: 10px !important;
   border: none !important;
   padding: 0 !important;
 }
 .notion-collection-card:first-child{
-  grid-column-start: span 4 !important;
+  grid-column-start: span 3 !important;
 }
 @media (max-width: 800px) {
   .notion-collection-gallery {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 2fr !important;
     margin-right: 5px !important;
     grid-gap: 15px !important;
   }
