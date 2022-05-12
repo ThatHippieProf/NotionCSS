@@ -5,16 +5,16 @@
     --color-text-default: #383a3b !important;
     --color-bg-default: #fafafa !important;
 }
-
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-text-blue: #c1c8e6 !important;
+        --color-text-blue: #FFCE5C !important;
         --color-text-default: #fafafa !important;
         --color-bg-default: #494a4a !important;
-        --color-ui-hover-bg: var(--color-off-white) !important;
+    }
+    .h3 {
+        color: #c7a148 !important;
     }
 }
-    
 /* Increase default font size */
 html {
   font-size: 16px !important;
