@@ -50,7 +50,7 @@ body {
 /* NavBar */
 .super-navbar {
   background: var(--color-bg-default) !important;
-  -webkit-backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
 /*Footer*/
@@ -167,10 +167,12 @@ h3 {
     position: absolute;
     bottom: 0;
     transition: var(--transition);
+    overflow-wrap: break-word;
+    font-size: 12px;
 }
 .notion-collection-gallery.medium .notion-property.notion-property__title::after {
     content: '⟶';
-    margin-left: 12px !important;
+    margin-left: 10px !important;
 }
 .notion-collection-gallery.medium .notion-collection-card:hover .notion-property.notion-property__title {
     color: var(--color-bg-default);
