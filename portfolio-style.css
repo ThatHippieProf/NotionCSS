@@ -213,7 +213,6 @@ h3 {
   opacity: 0.75;
 }
 .notion-collection-card.gallery:before {
-  background: transparent !important;
   pointer-events: none !important;
   position: absolute !important;
   content: "" !important;
