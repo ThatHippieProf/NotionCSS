@@ -48,8 +48,8 @@ body {
   color-text: #000000 !important;
 }
 /* NavBar */
-.notion-navbar {
-  background: rgb(250, 250, 250, .20) !important;
+.super-navbar {
+  background: var(--color-bg-default) !important;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px) !important;
 }
