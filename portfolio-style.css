@@ -36,6 +36,9 @@ body {
 .notion-header_cover.has-cover {
   display: hidden !important;
 }
+.notion-toggle {
+  display: none !important;
+}
 /* Change search background */
 .notion-search__wrapper {
   background: rgb(8, 110, 161, .2) !important;
