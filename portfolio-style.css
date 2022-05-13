@@ -11,9 +11,6 @@
         --color-text-default: #fafafa !important;
         --color-bg-default: #494a4a !important;
     }
-    .h3 {
-        color: #c7a148 !important;
-    }
 }
 /* Increase default font size */
 html {
@@ -83,6 +80,11 @@ h3 {
   font-size: 20px !important;
   font-weight: 900 !important;
   color: #002a40 !important;
+}
+@media (prefers-color-scheme: dark) {
+    .h3 {
+        color: #c7a148 !important;
+    }
 }
 /* Remove background & decrease margin for iframes */
 .notion-embed__container>iframe {
