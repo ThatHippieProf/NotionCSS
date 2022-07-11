@@ -59,6 +59,9 @@ body {
      -webkit-backdrop-filter: blur(10px) !important;
      backdrop-filter: blur(10px) !important;
     }
+  .super-navbar__item:hover {
+        color: #FFCE5C !important;
+    }
 }   
 /*Footer*/
 .super-footer__icons:hover {
