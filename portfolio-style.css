@@ -54,8 +54,8 @@ body {
   backdrop-filter: blur(10px) !important;
 }
 @media (prefers-color-scheme: dark) {
-  .super_navbar__menu {
-     background: #494a4a !important;
+  .super-navbar__menu {
+     background: var(--color-bg-default) !important;
     }
 }   
 /*Footer*/
