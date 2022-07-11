@@ -53,6 +53,11 @@ body {
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
+@media (prefers-color-scheme: dark) {
+  .super_navbar__menu {
+     background: #494a4a !important;
+    }
+}   
 /*Footer*/
 .super-footer__icons:hover {
     transform(1.02) !important;
