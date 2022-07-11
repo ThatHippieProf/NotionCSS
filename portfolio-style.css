@@ -55,7 +55,9 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   .super-navbar__menu {
-     background: var(--color-bg-default) !important;
+     background: #494a4a !important;
+     -webkit-backdrop-filter: blur(10px) !important;
+     backdrop-filter: blur(10px) !important;
     }
 }   
 /*Footer*/
