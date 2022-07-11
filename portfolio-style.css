@@ -53,13 +53,16 @@ body {
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
+super-navbar__menu-item-list:hover {
+    color: var(--color-text-blue) !important;
+}
 @media (prefers-color-scheme: dark) {
   .super-navbar__menu {
      background: #494a4a !important;
      -webkit-backdrop-filter: blur(10px) !important;
      backdrop-filter: blur(10px) !important;
     }
-  .notion-link:hover {
+  .super-navbar__menu-item-list:hover {
         color: #FFCE5C !important;
         font-weight: bold !important;
     }
