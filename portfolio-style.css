@@ -61,6 +61,7 @@ body {
     }
   .notion-link super-navbar__item:hover {
         color: #FFCE5C !important;
+        font-weight: bold !important;
     }
 }   
 /*Footer*/
