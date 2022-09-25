@@ -45,7 +45,7 @@ body {
 }
 .notion-search__input {
   background: rgb(8, 110, 161, .2) !important;
-  color-text: #000000 !important;
+  text-decoration-color: #000000 !important;
 }
 /* NavBar */
 .super-navbar {
@@ -53,12 +53,13 @@ body {
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
-super-navbar__menu-item-list:hover {
+.super-navbar__menu-item-list:hover {
     color: var(--color-text-blue) !important;
+    font-weight: bold !important;
 }
 @media (prefers-color-scheme: dark) {
   .super-navbar__menu {
-     background: #494a4a !important;
+     background: var(--color-bg-default) !important;
      -webkit-backdrop-filter: blur(10px) !important;
      backdrop-filter: blur(10px) !important;
     }
@@ -69,7 +70,7 @@ super-navbar__menu-item-list:hover {
 }   
 /*Footer*/
 .super-footer__icons:hover {
-    transform(1.02) !important;
+    transform: scale(1.02) !important;
 }
 /* Reducing the bottom white space */
 .super-content {
@@ -112,7 +113,7 @@ h3 {
 }
 /* Change General Link style */
 .notion-semantic-string {
- decoration: none !important;
+ text-decoration: none !important;
 }
 .notion-semantic-string .link {
  font-size: default !important;
@@ -161,7 +162,7 @@ h3 {
 }
 .notion-callout__content {
   margin: -1px 0 0 2px !important;
-  color-text: #383a3b !important;
+  text-decoration-color: #383a3b !important;
   text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
@@ -252,7 +253,7 @@ h3 {
    max-width: 100% !important;
    min-width: 80% !important;
    height: auto !important;
-   justify: center !important;
+   justify-content: center !important;
    overflow: hidden !important;
 }
 #block-9f392389bfd643e69dd62a4a1e33f7f9 img {
