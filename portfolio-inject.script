@@ -4,35 +4,3 @@
 <link rel="stylesheet" type="text/css" href="https://thathippieprof.github.io/NotionCSS/portfolio-style.css">
 
 <script async defer data-domain="colombodougovito.com" src="https://plausible.io/js/plausible.js"></script>
-
-<script>
-  window.onload = function() {
-    const copyright = document.createElement('p')
-    copyright.innerHTML = '© That Hippie Prof 2021. All Rights Reserved.'
-    copyright.style.color = '#002a40'
-    copyright.style.margin = '25px 0 0 0'
-
-    const img = document.createElement("img")
-    img.setAttribute('src', 'notion://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd43417e8-935f-408a-bfbf-9c6f82df8122%2FThat_Hippie_Prof-6.png?table=block&id=c70d4bf8-2905-4f0e-ae0a-3340800b9355&spaceId=745fb0e9-65d8-41d2-bd26-d2ee98b9e44d&width=250&userId=d1f36db1-7f91-40a3-847b-b276ccd0ba77&cache=v2')
-    img.style.width = '85px'
-    img.setAttribute('class', 'logo')
-
-    const footerLinks = document.createElement('div')
-    footerLinks.setAttribute('class', 'footer-links')
-
-    const link1 = document.createElement("a")
-    link1.innerHTML = 'Privacy Policy'
-    link1.setAttribute('href', 'https://colombodougovito.com/privacy')
-    link1.setAttribute('class', 'footlink')
-
-    const footer = document.createElement('div')
-    footer.setAttribute('class', 'super-footer')
-
-    footerLinks.appendChild(link1)
-    footer.appendChild(img)
-    footer.appendChild(footerLinks)
-    footer.appendChild(copyright)
-
-    document.body.appendChild(footer)
-  }
-</script>
