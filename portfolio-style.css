@@ -4,12 +4,34 @@
     --color-text-blue: #1a516b !important;
     --color-text-default: #383a3b !important;
     --color-bg-default: #fafafa !important;
+    /* Border radius */
+    --picker-border-radius: 8px!important;
+    /* Active colors */
+    --picker-active-bg-color: #1a516b !important;
+    --picker-active-text-color: #fafafa !important;
+    /* Default colors */
+    --picker-border-color: #1a516b !important;
+    --picker-text-color: #fafafa !important;
+    /* Hover colors */
+    --picker-hover-bg-color: #383a3b !important;
+    --picker-hover-text-color: #fafafa !important;
+    --picker-hover-border-color: #383a3b !important;
 }
 @media (prefers-color-scheme: dark) {
     :root {
         --color-text-blue: #FFCE5C !important;
         --color-text-default: #fafafa !important;
         --color-bg-default: #494a4a !important;
+        /* Active colors */
+        --picker-active-bg-color: #FFCE5C !important;
+        --picker-active-text-color: #494a4a !important;
+        /* Default colors */
+        --picker-border-color: #FFCE5C !important;
+        --picker-text-color: #494a4a !important;
+        /* Hover colors */
+        --picker-hover-bg-color: #fafafa !important;
+        --picker-hover-text-color: #494a4a !important;
+        --picker-hover-border-color: #fafafa !important;
     }
 }
 /* Increase default font size */
