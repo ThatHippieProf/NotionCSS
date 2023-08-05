@@ -5,7 +5,7 @@
     --rounded: 8px !important;
     --color-text-blue: #184e65 !important;
     --color-text-default: #292724 !important;
-    --color-bg-default: linear-gradient(to bottom, rgba(241,241,241,0), rgba(241,241,241,1)) !important; !important;
+    --color-bg-default: #f1f1f1 !important;
     --navbar-menu-background-color: #e5a836 !important;
     --navbar-menu-background-opacity: 80% !important;
     --secondary-font: 'Figtree', sans-serif;
@@ -151,9 +151,12 @@ body {
   -webkit-animation: fadeUp 2s !important;
   -moz-animation: fadeUp 2s !important;
   animation: fadeUp 2s !important;
+  background-image: linear-gradient(rgba(41, 39, 36,0), rgba(41, 39, 36,1) !important;
 }
 @media (prefers-color-scheme: dark) {
-  background-image: linear-gradient(to bottom, rgba(41, 39, 36,0), rgba(41, 39, 36,1)));
+  body {
+    background-image: linear-gradient(rgba(241,241,241,0), rgba(241,241,241,1)) !important;
+  }
 }
 
 /* Hide certain elements */
@@ -171,7 +174,7 @@ body {
   display: none !important;
 }
 /* NavBar */
-.super-navbar minimal {
+.super-navbar.minimal {
   background: var(--color-bg-default) !important;
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
@@ -196,18 +199,18 @@ body {
 }
 /* Reducing the bottom white space */
 .super-content {
-  padding-bottom: .1em !important;
+  padding-bottom: 3px !important;
   font-family: var(--secondary-font);
 }
 /* Change default font weights for headings */
 .notion-header__title,
 .notion-heading {
-  font-weight: 900 !important;
+  font-weight: 600 !important;
   font-family: var(--primary-font);
 }
 /* Change default margins for headings */
 .notion-heading {
-  margin-bottom: .1em !important;
+  margin-bottom: 5px !important;
 }
 /* Change default font size for header titles */
 .notion-header__title {
@@ -217,7 +220,7 @@ body {
 .h1 {
   font-size: 22px !important;
   color: var(--color-text-blue) !important;
-  font-weight 700 !important;
+  font-weight: 700 !important;
 }
 .h3 {
   text-align: left !important;
@@ -232,7 +235,7 @@ body {
 }
 /* Make post images full width */
 .notion-image.page-width {
-  max-width: 75vw !important;
+  max-width: 80vw !important;
   height: auto !important;
   border-radius: var(--picker-border-radius) !important;
 }
@@ -265,6 +268,7 @@ body {
 .notion-icon {
   height: 20px !important;
   width: 20px !important;
+  color: var(--color-text-blue)
 }
 /* Change Callout style */
 .notion-callout {
