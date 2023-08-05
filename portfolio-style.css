@@ -332,7 +332,8 @@ body {
    font-weight: 300 !important;
    padding: 0 0 0 5 px !important;
    font-size: 14 px !important;
-   color: var(--color-text-blue) !important;
+   text-decoration-color: var(--color-text-blue) !important;
+   background-color: none !important;
 }
 /*.notion-link.notion-file {
 
@@ -361,6 +362,7 @@ body {
    align-self: flex-start !important;
    position: sticky !important;
    top: 120px !important;
+   min-width: 400px !important;
 }
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
@@ -371,7 +373,7 @@ body {
    border-radius: var(--rounded) !important;
    margin: auto !important;
    max-width: 100% !important;
-   min-width: 80% !important;
+   min-width: 200px !important;
    height: auto !important;
    justify-content: center !important;
    overflow: hidden !important;
