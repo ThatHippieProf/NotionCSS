@@ -1,6 +1,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+//CSS Stylesheet
 <link rel="stylesheet" type="text/css" href="https://thathippieprof.github.io/NotionCSS/portfolio-style.css">
+<link rel="stylesheet" href="https://sites.super.so/snippets/view-picker.css">
 
+//plausible.io tracking
+<script defer data-domain="amcd.wtf" src="https://plausible.io/js/script.js"></script>
 <script async defer data-domain="colombodougovito.com" src="https://plausible.io/js/plausible.js"></script>
