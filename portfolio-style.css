@@ -151,8 +151,9 @@ body {
   -webkit-animation: fadeUp 2s !important;
   -moz-animation: fadeUp 2s !important;
   animation: fadeUp 2s !important;
-  background-image: linear-gradient(rgba(41, 39, 36,0), rgba(41, 39, 36,1) !important;
+  background-image: linear-gradient(rgba(41, 39, 36,0), rgba(41, 39, 36,1)) !important;
 }
+
 @media (prefers-color-scheme: dark) {
   body {
     background-image: linear-gradient(rgba(241,241,241,0), rgba(241,241,241,1)) !important;
