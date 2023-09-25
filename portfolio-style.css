@@ -362,11 +362,12 @@ body {
    align-self: flex-start !important;
    position: sticky !important;
    top: 120px !important;
+    width: 400px !important;
 }
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
-   left: (var(#block-f1bbcd6fbc5a4c9488e3c8dd9b57bc33)+50px) !important;
-    width: 90vw !important;
+   left: 450px !important;
+    width: 95% !important;
 }
 /* Change size of my photo */
 #block-9f392389bfd643e69dd62a4a1e33f7f9 {
