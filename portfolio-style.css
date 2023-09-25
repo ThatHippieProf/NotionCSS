@@ -176,7 +176,7 @@ body {
   display: none !important;
 }
 /* NavBar */
-.super-navbar-minimal {
+.super-navbar__minimal {
   background: var(--color-bg-default) !important;
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
@@ -362,7 +362,6 @@ body {
    align-self: flex-start !important;
    position: sticky !important;
    top: 120px !important;
-    width: 400px !important;
 }
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
