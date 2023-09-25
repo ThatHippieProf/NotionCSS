@@ -367,6 +367,7 @@ body {
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
    left: 400px !important;
+    min-width: 600px !important;
 }
 /* Change size of my photo */
 #block-9f392389bfd643e69dd62a4a1e33f7f9 {
