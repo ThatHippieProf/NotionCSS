@@ -362,20 +362,18 @@ body {
    align-self: flex-start !important;
    position: sticky !important;
    top: 120px !important;
-   min-width: 300px !important;
 }
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
    left: (var(#block-f1bbcd6fbc5a4c9488e3c8dd9b57bc33)+50px) !important;
-    width: (100vw-var(#block-f1bbcd6fbc5a4c9488e3c8dd9b57bc33)) !important;
-    min-width: 600px !important;
+    width: 90vw !important;
 }
 /* Change size of my photo */
 #block-9f392389bfd643e69dd62a4a1e33f7f9 {
    border-radius: var(--rounded) !important;
    margin: auto !important;
    max-width: 100% !important;
-   min-width: 200px !important;
+   min-width: 250px !important;
    height: auto !important;
    justify-content: center !important;
    overflow: hidden !important;
@@ -386,7 +384,7 @@ body {
    height: 100% !important;
 }
 /* Mobile styles */
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .notion-header__title {
     font-size: 40px !important;
   }
