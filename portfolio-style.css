@@ -362,7 +362,7 @@ body {
    align-self: flex-start !important;
    position: sticky !important;
    top: 120px !important;
-   min-width: 400px !important;
+   min-width: 300px !important;
 }
 #block-2c0f61b8058546e88f6d673bb88f4722 {
    top: 120px !important;
@@ -384,7 +384,7 @@ body {
    height: 100% !important;
 }
 /* Mobile styles */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .notion-header__title {
     font-size: 40px !important;
   }
